@@ -109,10 +109,10 @@ const Demo = () => {
           />
         ) : eror ? (
           <p className="font-inter font-bold text-center text-black">
-            There was a eror.... <br />{" "}
+            There was a eror.... <br />
             <span className="font-satoshi font-normal text-gray-700">
               {eror?.data?.eror}
-            </span>{" "}
+            </span>
           </p>
         ) : (
           article.summary && (
@@ -122,7 +122,6 @@ const Demo = () => {
               </h2>
               <div className="summary_box">
                 <p className="font-inter font-medium text-sm text-gray-700">
-                  {" "}
                   {article.summary}
                 </p>
               </div>
